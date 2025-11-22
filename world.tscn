@@ -1,10 +1,10 @@
 [gd_scene load_steps=18 format=3 uid="uid://bkr2qcihwbhtn"]
 
-[ext_resource type="Script" uid="uid://ecakxiucy8xn" path="res://world.gd" id="1_f3sb7"]
-[ext_resource type="Shader" uid="uid://17r7gipbuis0" path="res://road.gdshader" id="2_aqk2v"]
-[ext_resource type="Shader" uid="uid://u3cap3oq3dv4" path="res://dotted_line.gdshader" id="2_fj7yv"]
-[ext_resource type="Script" uid="uid://bvuffhk3pfx7" path="res://road.gd" id="3_036b0"]
-[ext_resource type="Script" uid="uid://d1uwcxq18qpfc" path="res://center_line.gd" id="3_tlwt5"]
+[ext_resource type="Script" uid="uid://ecakxiucy8xn" path="res://res/world.gd" id="1_f3sb7"]
+[ext_resource type="Shader" uid="uid://17r7gipbuis0" path="res://res/road.gdshader" id="2_aqk2v"]
+[ext_resource type="Shader" uid="uid://u3cap3oq3dv4" path="res://res/dotted_line.gdshader" id="2_fj7yv"]
+[ext_resource type="Script" uid="uid://bvuffhk3pfx7" path="res://res/road.gd" id="3_036b0"]
+[ext_resource type="Script" uid="uid://d1uwcxq18qpfc" path="res://res/center_line.gd" id="3_tlwt5"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_gv5m4"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
