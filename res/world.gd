@@ -1,6 +1,6 @@
 extends Node3D
 
-@export var move_value: float = 5.0
+@export var move_value: float = 2.5
 @export var move_max: float = 3.5
 @export var scroll_speed : float = 10.0
 
