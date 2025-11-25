@@ -52,9 +52,9 @@ size = Vector2(0.25, 1000)
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tlwt5"]
 render_priority = 0
 shader = ExtResource("2_fj7yv")
-shader_parameter/scroll_speed = 10.0
-shader_parameter/dash_length = 3.0
-shader_parameter/gap_length = 3.0
+shader_parameter/scroll_speed = 15.0
+shader_parameter/dash_length = 2.0
+shader_parameter/gap_length = 2.0
 shader_parameter/line_length = 1000.0
 shader_parameter/line_color = Color(1, 1, 1, 1)
 
@@ -82,7 +82,7 @@ script = ExtResource("3_036b0")
 scroll_speed = 10.0
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.978, 1.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.5, 0)
 
 [node name="lines" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26, -500)
@@ -104,6 +104,5 @@ mesh = SubResource("PlaneMesh_f3sb7")
 skeleton = NodePath("../left_line")
 surface_material_override/0 = SubResource("ShaderMaterial_tlwt5")
 script = ExtResource("3_tlwt5")
-scroll_speed = 10.0
-gap_length = 3.0
+dash_length = 2.0
 is_dashed = true
